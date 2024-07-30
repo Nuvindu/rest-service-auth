@@ -1,0 +1,6 @@
+refreshToken = "24f19603-8565-4b5f-a036-88a945e1f272"
+clientId = "FlfJYKBD2c925h4lkycqNZlC2l4a"
+clientSecret = "PJz0UhTJMrHOo68QQNpvnqAY_3Aa"
+refreshUrl = "http://localhost:9444/oauth2/token"
+url = "http://localhost:8081"
+path = "/example"
