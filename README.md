@@ -5,14 +5,13 @@
 If you are using another REST service with OAuth2 credentials, update the following values in the `Config.toml` file.
 
 ```toml
-endpointUrl = "https://dog.ceo/api"
-resourcePath = "/breeds/list/all"
+endpointUrl = "add-rest-endpoint"
+resourcePath = "add-resource-path"
 
 ## These values are only required for OAuth2 authentication
-refreshToken = "add-the-refresh-token"
+tokenUrl = "add-the-token-url"
 clientId = "add-the-client-id"
 clientSecret = "add-the-client-secret"
-refreshUrl = "add-the-refresh-url"
 ```
 
 ### Run the Ballerina project
