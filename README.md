@@ -1,19 +1,22 @@
 ## Instructions
 
-### Step 01: Run the mock REST service
+### Update the configurable fields
+
+If you are using another REST service with OAuth2 credentials, update the following values in the `Config.toml` file.
+
+```toml
+endpointUrl = "https://dog.ceo/api"
+resourcePath = "/breeds/list/all"
+
+## These values are only required for OAuth2 authentication
+refreshToken = "add-the-refresh-token"
+clientId = "add-the-client-id"
+clientSecret = "add-the-client-secret"
+refreshUrl = "add-the-refresh-url"
+```
+
+### Run the Ballerina project
 
 ```
-bal run http-service.bal
-```
-
-### Step 02: Run the secure token service
-
-```
-bal run sts-service.bal
-```
-
-### Step 03: Invoke REST APIs using HTTP client
-
-```
-bal run client.bal
+bal run
 ```
