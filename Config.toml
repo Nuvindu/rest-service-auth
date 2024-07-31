@@ -1,6 +1,9 @@
+endpointUrl = "https://dog.ceo/api"
+resourcePath = "/breeds/list/all"
+
+## These values are only required for OAuth2 authentication
 refreshToken = "add-the-refresh-token"
 clientId = "add-the-client-id"
 clientSecret = "add-the-client-secret"
 refreshUrl = "add-the-refresh-url"
-endpointUrl = "https://dog.ceo/api"
-resourcePath = "/breeds/list/all"
+
